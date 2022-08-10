@@ -1,7 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
+const urlPrefix = process.env.URL_PREFIX ? '/' + process.env.URL_PREFIX : ''
 
-module.exports = nextConfig
+module.exports = {
+  assetPrefix: urlPrefix,
+  basePath: urlPrefix,
+  trailingSlash: true,
+};
