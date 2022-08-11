@@ -28,8 +28,6 @@ jobs:
 
       - name: Export Next.js app
         run: npm run export
-        env:
-          URL_PREFIX: how-to-build-platformer-in-scratch
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
