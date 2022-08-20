@@ -63,7 +63,8 @@ export default function Home({ allPosts }) {
             <h1 className="text-5xl font-bold">How to build platformer in Scratch</h1>
             <h2 className="text-4xl mt-2">Scratchでつくるプラットフォームゲーム</h2>
             <p className="mt-4">
-              ここではScratchでプラットフォームゲームをつくる方法について解説しています。
+              ここでは、基礎ができたプログラムから、自分だけのプラットフォームゲームを作る方法を説明します。
+              ここで、自分に合った難易度のプログラムを作って、あなたのプラットフォームゲームをより良いものにしていきましょう！
             </p>
           </div>
         </div>
