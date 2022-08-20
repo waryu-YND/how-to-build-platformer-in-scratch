@@ -1,5 +1,5 @@
-import scratchblocks from "scratchblocks.min.es.js" 
-import loadTranslations from "translations-all-es.js"
+import scratchblocks from "./scratchblocks.min.es.js"
+import loadTranslations from "./translations-all-es.js"
 loadTranslations(scratchblocks);
 
 scratchblocks.renderMatching('pre.blocks', {
